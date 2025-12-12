@@ -36,6 +36,9 @@ def load_data(path):
                 rows.append(r)
         return rows
 
+
+#comment_1
+
 def generate_summary(df):
     # If pandas available, use it
     if pd:
@@ -116,3 +119,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
